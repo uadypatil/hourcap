@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root { --app:#f6f8f8; --surface:#fff; --line:#e0e6e6; --fg:#16201f; --muted:#5b6b69; --brand:#00796b; --brand-soft:#e0f2f1; }
+.dark { --app:#0f1514; --surface:#171e1d; --line:#2a3534; --fg:#e6eeed; --muted:#9db0ad; --brand:#4db6ac; --brand-soft:#16312e; }
+@theme inline {
+  --color-app: var(--app); --color-surface: var(--surface); --color-line: var(--line);
+  --color-fg: var(--fg); --color-muted: var(--muted); --color-brand: var(--brand); --color-brand-soft: var(--brand-soft);
+  --font-sans: "Roboto", ui-sans-serif, system-ui, sans-serif;
+}
+html { scroll-behavior: smooth; color-scheme: light; }
+html.dark { color-scheme: dark; }
+body { margin: 0; background: var(--app); color: var(--fg); font-family: var(--font-sans); -webkit-font-smoothing: antialiased; }
+.tabular { font-variant-numeric: tabular-nums; }
+:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+.skip { position: absolute; left: -999px; } .skip:focus { left: 8px; top: 8px; z-index: 100; background: var(--surface); padding: 8px 12px; border-radius: 8px; }
+@media (prefers-reduced-motion: reduce) { * { animation-duration: .001ms !important; transition-duration: .001ms !important; scroll-behavior: auto !important; } }

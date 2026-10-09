@@ -1,0 +1,10 @@
+[
+{"q":"What is HourCap?","a":"HourCap is a free, offline-first work time tracker and work hours calculator. You press CAPTURE FROM NOW when you start working, and it calculates your expected finish time from your required daily hours and breaks."},
+{"q":"How is the expected completion time calculated?","a":"Expected completion = work start time + required work duration + break time. Example: start 08:17, 8h 30m required and a 30-minute break gives 05:17 PM."},
+{"q":"Does HourCap work offline?","a":"Yes. HourCap is a progressive web app (PWA) that stores everything in your browser's IndexedDB, so it works without internet after the first load and can be installed on desktop or mobile."},
+{"q":"Is my attendance and work-hours data private?","a":"Yes. There is no backend and no account on a server. Your data never leaves your device unless you export a backup file yourself."},
+{"q":"Can I track multiple breaks, half days and leaves?","a":"Yes. Each break is stored separately, and you can mark full days, half days, leaves and weekly off days, then review them in a monthly attendance calendar and report."},
+{"q":"Will the timer keep running if I close the tab or my laptop sleeps?","a":"Yes. HourCap derives all times from saved timestamps rather than a running counter, so elapsed, remaining and overtime time stay correct after refreshes, restarts and sleep."},
+{"q":"Does HourCap send work-completion reminders?","a":"It can notify you 10 minutes before, 5 minutes before and at completion using your browser's notification permission. Background delivery depends on your browser and platform."},
+{"q":"Is HourCap an employee monitoring tool?","a":"No. It is a personal productivity timer for individuals, freelancers and remote or office workers. It has no manager dashboard, GPS or tracking."}
+]

@@ -1,0 +1,6 @@
+# HourCap
+> Free, offline-first work time tracker, work hours calculator, break tracker and attendance tracker (PWA). Data is stored locally in the browser (IndexedDB); no backend or account.
+
+- Start work with "CAPTURE FROM NOW"; completion = start + required duration + break time.
+- Features: multiple breaks, half days, leaves, week-offs, monthly calendar and report, 10/5-minute and completion reminders, JSON backup/restore.
+- Home: https://hourcap.app/
